@@ -1,0 +1,6 @@
+Manual Test Results for BMI Calculator
+Weight (kg)	Height (cm)	Expected Output	Actual Output	Status
+50	160	BMI 19.5 -> Normal	BMI 19.5 -> Normal	✅ Pass
+80	170	BMI 27.7 -> Overweight	BMI 27.7 -> Overweight	✅ Pass
+95	165	BMI 34.9 -> Obese	BMI 34.9 -> Obese	✅ Pass
+40	180	BMI 12.3 -> Underweight	BMI 12.3 -> Underweight	✅ Pass
