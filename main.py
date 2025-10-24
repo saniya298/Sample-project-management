@@ -1,4 +1,5 @@
-# main.py - simple BMI calculator
+```python
+# Simple console-based BMI calculator interface
 
 def calculate_bmi(weight_kg, height_m):
     return weight_kg / (height_m ** 2)
