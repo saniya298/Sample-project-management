@@ -1,0 +1,12 @@
+# Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.idea/
+.vscode/
+*.log
+*.sqlite3
+.ipynb_checkpoints/
