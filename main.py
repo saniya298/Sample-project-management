@@ -18,7 +18,8 @@ def get_float(prompt):
         try:
             val = float(input(prompt))
             if val <= 0:
-                raise ValueError("Value must be greater than 0.")
+                print("Please enter a positive number.")
+                continue
             return val
         except ValueError as e:
             print("Invalid input:", e)
